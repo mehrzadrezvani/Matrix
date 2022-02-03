@@ -1,0 +1,71 @@
+/* responsive mixin 
+
+  @params (breakpoint , screen-size)
+
+  breakpoint => {
+    0 - 600 = phone
+    600 - 900 = tablet
+    900 - 1600 = desktop
+    1600 - infinity = bigscreen
+  }
+
+*/
+@mixin responsive($breakpoint, $size) {
+  @if $size !='' {
+    @if $breakpoint==phone {
+      @media only screen and (max-width: $size) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==tablet {
+      @media only screen and (max-width: $size) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==desktop {
+      @media only screen and (max-width: $size) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==bigscreen {
+      @media only screen and (min-width: $size) {
+        @content;
+      }
+    }
+  }
+
+  @else {
+    @if $breakpoint==phone {
+      @media only screen and (max-width: 600px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==tablet {
+      @media only screen and (max-width: 1200px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==desktop {
+      @media only screen and (min-width: 1200px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==bigscreen {
+      @media only screen and (min-width: 1500px) and (max-width: 1920px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint==retrina {
+      @media only screen and (min-width: 1930px) {
+        @content;
+      }
+    }
+  }
+}

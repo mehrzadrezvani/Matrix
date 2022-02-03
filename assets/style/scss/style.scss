@@ -1,0 +1,22 @@
+/* abstratcs */
+
+@import 'abstract/variables';
+@import 'abstract/functions';
+@import 'abstract/mixin';
+
+/* base */
+
+@import 'base/reset';
+@import 'base/scrollBar';
+@import 'base/typography';
+
+/* layout */
+
+@import 'layout/base';
+@import 'layout/header';
+@import 'layout/footer';
+
+/* components */
+@import 'components/ProfCard';
+
+/* pages */

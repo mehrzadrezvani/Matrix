@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'bonga';
+  src:  url('../../fonts/bonga.eot?ibl7tk');
+  src:  url('../../fonts/bonga.eot?ibl7tk#iefix') format('embedded-opentype'),
+    url('../../fonts/bonga.ttf?ibl7tk') format('truetype'),
+    url('../../fonts/bonga.woff?ibl7tk') format('woff'),
+    url('../../fonts/bonga.svg?ibl7tk#bonga') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bonga' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-basement:before {
+  content: "\e919";
+}
+.icon-hurricane:before {
+  content: "\e927";
+}
+.icon-search:before {
+  content: "\e928";
+}
+.icon-tree:before {
+  content: "\e929";
+}
+.icon-change:before {
+  content: "\e924";
+}
+.icon-error:before {
+  content: "\e91d";
+}
+.icon-success:before {
+  content: "\e91e";
+}
+.icon-broken-house:before {
+  content: "\e91f";
+}
+.icon-eye:before {
+  content: "\e920";
+}
+.icon-index:before {
+  content: "\e921";
+}
+.icon-key:before {
+  content: "\e922";
+}
+.icon-like-fill:before {
+  content: "\e923";
+}
+.icon-picture:before {
+  content: "\e925";
+}
+.icon-email:before {
+  content: "\e91b";
+}
+.icon-maps-and-flags:before {
+  content: "\e926";
+}
+.icon-phone-call:before {
+  content: "\e91c";
+}
+.icon-booking:before {
+  content: "\e91a";
+}
+.icon-pass-eye-shut:before {
+  content: "\e901";
+}
+.icon-pass-eye-open:before {
+  content: "\e917";
+}
+.icon-Next:before {
+  content: "\e915";
+}
+.icon-Prev:before {
+  content: "\e916";
+}
+.icon-filter-results-button:before {
+  content: "\e914";
+}
+.icon-bathtub:before {
+  content: "\e90e";
+}
+.icon-call-answer:before {
+  content: "\e90f";
+}
+.icon-icons-like-dark:before {
+  content: "\e910";
+}
+.icon-icons-share-dark:before {
+  content: "\e911";
+}
+.icon-magnifying-glass:before {
+  content: "\e912";
+}
+.icon-parking-sign:before {
+  content: "\e913";
+}
+.icon-area:before {
+  content: "\e900";
+}
+.icon-arrow-point-to-right:before {
+  content: "\e918";
+}
+.icon-bed:before {
+  content: "\e902";
+}
+.icon-building:before {
+  content: "\e903";
+}
+.icon-dollar-symbol:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-house:before {
+  content: "\e906";
+}
+.icon-image-4:before {
+  content: "\e907";
+}
+.icon-Intsagram:before {
+  content: "\e908";
+}
+.icon-LinkedIn:before {
+  content: "\e909";
+}
+.icon-opened-door-aperture:before {
+  content: "\e90a";
+}
+.icon-rent:before {
+  content: "\e90b";
+}
+.icon-skyline:before {
+  content: "\e90c";
+}
+.icon-YouTube:before {
+  content: "\e90d";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}

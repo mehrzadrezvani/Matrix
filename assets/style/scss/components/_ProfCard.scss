@@ -1,0 +1,61 @@
+.ProfCard {
+  background-color: rgba($color: $red, $alpha: 1);
+  backdrop-filter: blur(6rem);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  min-height: 30vh;
+  // background-color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 3px solid $white;
+  // border-top-left-radius: 3rem;
+  // border-bottom-right-radius: 3rem;
+  border-radius: 16px;
+  position: relative;
+  //   overflow: hidden;
+
+  &__avatar {
+    // position: absolute;
+    // top: -71%;
+    // left: 50%;
+    // transform: translate(-50%, 50%);
+    // border-radius: 50%;
+    // overflow: hidden;
+    // width: 10vw;
+    // border: 6px solid transparent;
+    margin-top: -20%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    img {
+      border-radius: 100%;
+      width: 20%;
+      top: 20px;
+      position: relative;
+      :before {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background-color: red;
+        position: absolute;
+        right: 100%;
+        top: 90%;
+      }
+    }
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-size: 4rem;
+  }
+}
